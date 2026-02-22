@@ -28,9 +28,25 @@
     { "id": "prod-063f570f-022", "name": "Basic Item 22", "category": "sports", "price": 49.61, "stock": 191, "rating": 2.2 }
   ],
   "aggregations": {
+    "electronics": {
+      "count": 4,
+      "inventoryValue": 49467.43
+    },
     "home": {
       "count": 3,
       "inventoryValue": 139090.59
+    },
+    "sports": {
+      "count": 6,
+      "inventoryValue": 89973.62
+    },
+    "books": {
+      "count": 4,
+      "inventoryValue": 84025.35
+    },
+    "clothing": {
+      "count": 5,
+      "inventoryValue": 175060.63
     }
   }
 }
